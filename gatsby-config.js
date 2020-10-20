@@ -47,5 +47,17 @@ module.exports = {
     {
       resolve: "gatsby-plugin-anchor-links",
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `The Ranch Taproom | Lake Wales, FL`,
+        short_name: `The Ranch`,
+        start_url: `/`,
+        background_color: `#F6F5ED`,
+        theme_color: `#1B3D69`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.svg`,
+      },
+    },
   ],
 }
