@@ -22,7 +22,8 @@ export default {
     link: "color 0.3s ease",
     card: "transform 0.3s ease",
     button: "background-color 0.3s ease, color 0.3s ease",
-    menu: "right 0.3s ease",
+    menu: "width 0.5s ease",
+    menuLink: "opacity 0.3s ease 0.05s, color 0.3s ease",
   },
   shadows: {
     card: "drop-shadow(0px 4px 12px rgba(6, 18, 33, 0.3))",

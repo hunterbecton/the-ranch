@@ -3,11 +3,11 @@ import styled from "styled-components"
 const MobileNavContainer = styled.div`
   display: none;
   position: absolute;
-  width: 100%;
+  width: ${props => (props.isMobileOpen ? "100%" : "0")};
   height: 100vh;
   background-color: ${props => props.theme.colors.black1};
   top: 0;
-  right: ${props => (props.isMobileOpen ? "0" : "-100%")};
+  right: 0;
   z-index: 5000;
   transition: ${props => props.theme.animations.menu};
 

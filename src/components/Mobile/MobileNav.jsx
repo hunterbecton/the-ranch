@@ -7,7 +7,7 @@ import MobileNavLinks from "./MobileNavLinks"
 const MobileNav = ({ isMobileOpen }) => {
   return (
     <MobileNavContainer isMobileOpen={isMobileOpen}>
-      <MobileNavLinks>
+      <MobileNavLinks isMobileOpen={isMobileOpen}>
         <AnchorLink to="/#story" title="Story">
           Our Story
         </AnchorLink>
