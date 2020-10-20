@@ -13,6 +13,7 @@ export const GlobalStyles = createGlobalStyle`
       position: relative;
       margin-left: calc(100vw - 100%);
       margin-right: 0;
+      overflow-x: hidden;
     }
     
     html, body {
@@ -21,7 +22,6 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
       background-color: ${props => props.theme.colors.white};
-      overflow-x: hidden;
     }
 
     a {
