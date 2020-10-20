@@ -65,6 +65,14 @@ const HamburgerContainer = styled.div`
   @media only screen and (max-width: 70rem) {
     display: block;
   }
+
+  @media ${props => props.theme.breakpoints.m} {
+    right: 3rem;
+  }
+
+  @media ${props => props.theme.breakpoints.s} {
+    right: 2rem;
+  }
 `
 
 export default HamburgerContainer

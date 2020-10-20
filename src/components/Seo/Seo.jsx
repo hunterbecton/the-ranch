@@ -28,7 +28,7 @@ const Seo = ({ description, keywords, title, image, url }) => {
             ]
         return (
           <Helmet
-            title={title}
+            title={metaTitle}
             meta={[
               {
                 name: `description`,
