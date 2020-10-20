@@ -37,6 +37,7 @@ const Form = styled.form`
     text-transform: uppercase;
     transition: ${props => props.theme.animations.button};
     cursor: pointer;
+    border-radius: 0;
   }
 
   & > .form__submit:hover {
