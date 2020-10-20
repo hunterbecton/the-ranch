@@ -16,6 +16,19 @@ const NavLinks = styled.div`
 
     img {
       width: 12rem;
+      margin: 0 4rem;
+    }
+  }
+
+  @media ${props => props.theme.breakpoints.m} {
+    img {
+      margin: 0 3rem;
+    }
+  }
+
+  @media ${props => props.theme.breakpoints.s} {
+    img {
+      margin: 0 2rem;
     }
   }
 `
