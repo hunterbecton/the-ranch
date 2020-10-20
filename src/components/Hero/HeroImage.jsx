@@ -25,6 +25,7 @@ const HeroImage = ({ fixed }) => {
           height: "100%",
         }}
         className="hero__image"
+        loading="auto"
       />
     </Fragment>
   )
