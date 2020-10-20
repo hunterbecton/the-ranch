@@ -10,6 +10,7 @@ const MobileNavContainer = styled.div`
   right: 0;
   z-index: 5000;
   transition: ${props => props.theme.animations.menu};
+  overflow: hidden;
 
   @media only screen and (max-width: 70rem) {
     display: flex;
