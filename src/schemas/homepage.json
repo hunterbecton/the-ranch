@@ -1,0 +1,280 @@
+{
+  "Hero" : {
+    "hero_text" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1",
+        "label" : "Hero Text"
+      }
+    },
+    "feature_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 1440,
+          "height" : 757
+        },
+        "thumbnails" : [ ],
+        "label" : "Feature Image"
+      }
+    }
+  },
+  "Our Story" : {
+    "tagline" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading6",
+        "label" : "Tagline"
+      }
+    },
+    "title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading2",
+        "label" : "Title"
+      }
+    },
+    "description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "paragraph",
+        "label" : "Description"
+      }
+    },
+    "feature_image1" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 900,
+          "height" : 600
+        },
+        "thumbnails" : [ ],
+        "label" : "Feature Image"
+      }
+    }
+  },
+  "Menu" : {
+    "tagline1" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading6",
+        "label" : "Tagline"
+      }
+    },
+    "title1" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading2",
+        "label" : "Title"
+      }
+    },
+    "feature_image2" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 900,
+          "height" : 600
+        },
+        "thumbnails" : [ ],
+        "label" : "Feature Image"
+      }
+    },
+    "coffee" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "title1" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading4",
+              "label" : "Title"
+            }
+          },
+          "price" : {
+            "type" : "Number",
+            "config" : {
+              "label" : "Price",
+              "placeholder" : "9.99"
+            }
+          }
+        },
+        "label" : "Coffee"
+      }
+    },
+    "pastries" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "title1" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading4",
+              "label" : "Title"
+            }
+          },
+          "price" : {
+            "type" : "Number",
+            "config" : {
+              "label" : "Price",
+              "placeholder" : "9.99"
+            }
+          }
+        },
+        "label" : "Pastries"
+      }
+    },
+    "beer" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "title1" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading4",
+              "label" : "Title"
+            }
+          },
+          "brewery" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading5",
+              "label" : "Brewery"
+            }
+          },
+          "type" : {
+            "type" : "Select",
+            "config" : {
+              "options" : [ "Amber Ale", "Amber Lager", "Dark Ale", "Dark Lager", "Barleywine", "Belgian IPA", "Berliner Weisse", "Blonde Ale", "Bock", "Cider", "Double IPA", "English Bitters", "Fruit Beer", "Golden Ale", "Golden Lager", "Gose", "Gruit Beer", "Imperial IPA", "Kölsch", "Pale Ale", "Pale Lager", "Pilsner", "Porter", "Saison", "Sour Ale", "Stout", "Strong Ale", "Weizenbock", "Wheat Beer", "White IPA", "Wild Ale", "Witbier" ],
+              "label" : "Type"
+            }
+          }
+        },
+        "label" : "Beer"
+      }
+    },
+    "snacks" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "title1" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading4",
+              "label" : "Title"
+            }
+          },
+          "price" : {
+            "type" : "Number",
+            "config" : {
+              "label" : "Price",
+              "placeholder" : "9.99"
+            }
+          }
+        },
+        "label" : "Snacks"
+      }
+    }
+  },
+  "Footer" : {
+    "hours" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "day" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading4",
+              "label" : "Day"
+            }
+          },
+          "time" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading5",
+              "label" : "Time"
+            }
+          }
+        },
+        "label" : "Hours"
+      }
+    },
+    "address_line_1" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading4",
+        "label" : "Address Line 1"
+      }
+    },
+    "address_line_2" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading4",
+        "label" : "Address Line 2"
+      }
+    },
+    "phone" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading4",
+        "label" : "Phone"
+      }
+    },
+    "email" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading4",
+        "label" : "Email"
+      }
+    },
+    "copyright" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading4",
+        "label" : "Copyright"
+      }
+    }
+  },
+  "Events" : {
+    "tagline2" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading6",
+        "label" : "Tagline"
+      }
+    },
+    "title2" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading4",
+        "label" : "Title"
+      }
+    },
+    "events" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "date" : {
+            "type" : "Date",
+            "config" : {
+              "label" : "Date"
+            }
+          },
+          "title3" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading4",
+              "label" : "Title"
+            }
+          },
+          "url" : {
+            "type" : "Link",
+            "config" : {
+              "label" : "URL"
+            }
+          }
+        },
+        "label" : "Events"
+      }
+    }
+  }
+}
