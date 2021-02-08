@@ -1,14 +1,9 @@
 import styled from "styled-components"
 
 const EventCard = styled.a`
-  padding: 2rem;
+  padding: 3rem 2rem;
   color: inherit;
   background-color: ${props => props.theme.colors.white};
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 
   & > .event__date {
     font-size: 1.25rem;

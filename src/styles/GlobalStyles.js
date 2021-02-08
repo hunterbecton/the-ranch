@@ -44,4 +44,10 @@ export const GlobalStyles = createGlobalStyle`
     }
   }
 
+  @media ${props => props.theme.breakpoints.xs} {
+    :root {
+      font-size: 11px;
+    }
+  }
+
 `

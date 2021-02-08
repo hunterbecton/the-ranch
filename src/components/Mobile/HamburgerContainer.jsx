@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 const HamburgerContainer = styled.div`
-  display: none;
   width: calc(60px * 0.6);
   height: calc(45px * 0.6);
   position: absolute;
@@ -11,6 +10,7 @@ const HamburgerContainer = styled.div`
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  display: none;
 
   &:focus,
   &:focus-within {
@@ -62,11 +62,8 @@ const HamburgerContainer = styled.div`
     left: calc(8px * 0.6);
   }
 
-  @media only screen and (max-width: 70rem) {
-    display: block;
-  }
-
   @media ${props => props.theme.breakpoints.m} {
+    display: block;
     right: 3rem;
   }
 

@@ -17,7 +17,7 @@ const NavGroup = styled.div`
     color: ${props => props.theme.colors.orange};
   }
 
-  @media only screen and (max-width: 70rem) {
+  @media ${props => props.theme.breakpoints.m} {
     display: none;
   }
 `

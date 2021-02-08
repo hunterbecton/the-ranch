@@ -11,6 +11,7 @@ const FooterFormContainer = styled.div`
     font-size: 1.5rem;
     line-height: 1.75rem;
     margin: 0 auto 3rem auto;
+    text-align: center;
   }
 
   .form--error {

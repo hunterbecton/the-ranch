@@ -17,6 +17,10 @@ const ButtonLink = styled.a`
     color: ${props => props.theme.colors.white};
     background-color: ${props => props.theme.colors.black1};
   }
+
+  @media ${props => props.theme.breakpoints.s} {
+    font-size: 1rem;
+  }
 `
 
 export default ButtonLink

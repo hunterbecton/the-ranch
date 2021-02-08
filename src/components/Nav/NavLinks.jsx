@@ -7,23 +7,12 @@ const NavLinks = styled.div`
   position: relative;
 
   img {
-    width: 18rem;
-    margin: 0 5rem;
-  }
-
-  @media only screen and (max-width: 70rem) {
-    margin: 0;
-
-    img {
-      width: 12rem;
-      margin: 0 4rem;
-    }
+    width: 12rem;
+    margin: 0 4rem;
   }
 
   @media ${props => props.theme.breakpoints.m} {
-    img {
-      margin: 0 3rem;
-    }
+    margin: 0;
   }
 
   @media ${props => props.theme.breakpoints.s} {
