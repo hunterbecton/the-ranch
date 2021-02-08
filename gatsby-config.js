@@ -61,7 +61,6 @@ module.exports = {
         icon: `src/images/favicon.svg`,
       },
     },
-    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
