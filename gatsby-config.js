@@ -10,6 +10,8 @@ module.exports = {
     image: "https://i.imgur.com/uATllRn.jpg",
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
@@ -57,6 +59,28 @@ module.exports = {
         theme_color: `#1B3D69`,
         display: `minimal-ui`,
         icon: `src/images/favicon.svg`,
+      },
+    },
+    `gatsby-plugin-advanced-sitemap`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        resolveEnv: () => NETLIFY_ENV,
+        env: {
+          production: {
+            policy: [{ userAgent: "*" }],
+          },
+          "branch-deploy": {
+            policy: [{ userAgent: "*", disallow: ["/"] }],
+            sitemap: null,
+            host: null,
+          },
+          "deploy-preview": {
+            policy: [{ userAgent: "*", disallow: ["/"] }],
+            sitemap: null,
+            host: null,
+          },
+        },
       },
     },
   ],
