@@ -11,8 +11,7 @@ export const GlobalStyles = createGlobalStyle`
       font-size: 16px;
       font-weight: 400;
       position: relative;
-      margin-left: calc(100vw - 100%);
-      margin-right: 0;
+      overflow-y:scroll;
     }
     
     html, body {
@@ -21,7 +20,6 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
       background-color: ${props => props.theme.colors.white};
-      overflow-x: hidden;
     }
 
     a {
